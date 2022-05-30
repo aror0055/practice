@@ -122,3 +122,15 @@ console.log(prices.findIndex(item => item > 300)) // undefined as 300 is larger 
 
 const even = prices.filter(price => price % 2 == 0)
 console.log(even)
+
+// forEach() is a loop that runs the filter on each item of an array and gives out separate values until the array ends.  
+products.forEach(product => console.log(product))
+
+// map() is used to create a new array using a condition that is applied to each element of an array.
+const doublePrice = prices.map(price => price * 2)
+console.log(doublePrice)
+
+//  reduce() is used to reduce down all the values of an array into a single value, for example ana array of number will be returned as the sum of all the numbers.
+
+const sum = prices.reduce((accumulator, price) => accumulator + price)
+console.log(sum)
