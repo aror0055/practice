@@ -46,8 +46,8 @@ prices.sort()
 console.log(prices)
 
 // Link to what the return function is: https://www.javascripttutorial.net/javascript-array-sort/
-prices.sort(function(a, b){
-    return a-b
+prices.sort(function (a, b) {
+    return a - b
 })
 console.log(prices)
 
@@ -75,12 +75,15 @@ let updatedCart = [...products, ...upsells]
 console.log(updatedCart)
 
 // Creating a new variable for isArray() method, it is an object
-const productObj = {type: 'notebook', color: 'black'}
+const productObj = {
+    type: 'notebook',
+    color: 'black'
+}
 
 console.log(typeof productObj)
 
-console.log(Array.isArray(products) )
-console.log(Array.isArray(productObj) )
+console.log(Array.isArray(products))
+console.log(Array.isArray(productObj))
 
 // Use the join() method to grab all the items in an array and place them inside of a string.
 console.log(products.join(''))
