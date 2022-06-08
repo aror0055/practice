@@ -1,4 +1,4 @@
-/*const title = 'Products'
+const title = 'Products'
 const products = ['T-shirt', 'Mug', 'Poster', 'Pen', 'Phone Cover', 'Jacket']
 
 const list = `
@@ -15,30 +15,30 @@ const list = `
 
 const $list = document.getElementById('list')
 
-$list.innerHTML = $list.innerHTML + list*/
+$list.innerHTML = $list.innerHTML + list
 
 // const $animalList = document.getElementById('animal-list')
 
 // $animalList.textContent = $animalList.innerHTML
 
 
-const title = 'Products'
-const products = ['T-shirt', 'Mug', 'Poster', 'Pen', 'Phone Cover', 'Jacket']
-const items = []
-let i = 0
-for (const product of products) {
-    items.push(`<li>${product}</li>`)
-}
+// const title = 'Products'
+// const products = ['T-shirt', 'Mug', 'Poster', 'Pen', 'Phone Cover', 'Jacket']
+// const items = []
+// let i = 0
+// for (const product of products) {
+//     items.push(`<li>${product}</li>`)
+// }
 
-console.log(items)
+// console.log(items)
 
-const list = `
-<h2>${title}</h2>
-<ul>
-    ${items.join('')}
-</ul>
-`
+// const list = `
+// <h2>${title}</h2>
+// <ul>
+//     ${items.join('')}
+// </ul>
+// `
 
-const $list = document.getElementById('list')
+// const $list = document.getElementById('list')
 
-$list.innerHTML = $list.innerHTML + list
+// $list.innerHTML = $list.innerHTML + list
