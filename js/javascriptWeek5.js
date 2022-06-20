@@ -18,4 +18,19 @@ $payBtn.addEventListener('dblclick', function(){
     alert('The payBtn was clicked')
 })
 
+$button.addEventListener('mouseover', function(){
+    $button.textContent = 'Dont click the button'
+})
+
+$button.addEventListener('mouseout', function(){
+    $button.textContent = 'Dont do it!!'
+})
+
+const $log = document.getElementById('log')
+
+function logKey(e){
+    $log.textContent = $log.textContent + `${e.code}`;
+}
+
+document.addEventListener('keydown', logKey)
 
